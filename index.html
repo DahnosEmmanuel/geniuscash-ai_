@@ -19,7 +19,7 @@
 
   <section class="hero">
     <h2>Automatise tes revenus avec l'IA</h2>
-    <p>50 IA travaillent pour toi, 24h/24. Gagne de l’argent pendant que tu dors.</p>
+    <p>50 IA travaillent pour toi, 24h/24. Vend et gagne de l’argent pendant que tu dors.</p>
     <button onclick="scrollToSection()">Découvrir</button>
   </section>
 
@@ -33,10 +33,21 @@
     </ul>
   </section>
 
+  <!-- 🔐 Formulaire de connexion Firebase -->
+  <section id="auth-section">
+    <h3>Connexion à GeniusCash AI</h3>
+    <form id="login-form">
+      <input type="email" id="email" placeholder="Adresse email" required />
+      <input type="password" id="password" placeholder="Mot de passe" required />
+      <button type="submit">Connexion</button>
+    </form>
+    <p id="auth-message"></p>
+  </section>
+
   <footer>
     <p>© 2025 GeniusCash AI – Tous droits réservés</p>
   </footer>
 
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
